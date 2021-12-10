@@ -3,8 +3,17 @@
 > ```
 > gcloud config get-value compute/zone
 > gcloud config get-value compute/region
+> 
+> gcloud config list compute/zone
+> gcloud config list compute/region
 > ```
-
+> 
+> 기본 리전 및 영역 변경
+> 
+> ```
+> gcloud config set compute/zone
+> gcloud config set compute/region 
+> ```
 
 
 > 환경 변수 설정 (linux)
